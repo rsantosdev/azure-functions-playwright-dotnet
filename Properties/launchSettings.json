@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "PlaywrightOnAzureFunctionsDemo": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7027"
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "httpPort": 32183,
+      "useSSL": false
+    }
+  }
+}
